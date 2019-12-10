@@ -1,0 +1,18 @@
+The code was divided into 5 parts, mainly main.py, op.py, option_1.py, option_2.py, and option_3.py.
+
+Main.py
+	Main contains the ui which again controls the function calling for the rest of the code. All the functions have been imported into this. It has 5 buttons where 3 of them calls the functions while the option button opens up the GitHub address which can be changed and the quit closes the program. 
+
+option_1.py
+	This program opens up Atom, a terminal and another terminal running python3. 
+
+option_2.py
+	This program takes a photo and saves it to the working folder. It uses OpenCV to take the photo. 
+
+option_3.py
+	This opens the given web address in the default browser window. The address is present in the github_address.txt file. 
+
+op.py
+	It opens up github_address.txt in the default text editor
+
+

@@ -1,0 +1,10 @@
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+exec /path/to/script.py
+
+Put this is /etc/init
+
+
+On Mac, 
+Place the plist file present in /Users/<username>/Library/LaunchAgents
